@@ -1,28 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-
-import React, {Component} from 'react';
-import ReactShadowRoot from 'react-shadow-root';
-
-
-import {connect} from "react-redux"
-import {handleInputEvent, getAllSessions} from "./Reducers/actions";
-
-
-
-
-class App extends Component {
-  constructor(props) {
-    super(props);
-    console.log(props.state)
-  }
-
-  // componentDidMount() {
-  //  console.log("did mount")
-  // }
-
-  style = `
-  * {
+* {
     font-size: 20px;
 }
 
@@ -158,58 +134,3 @@ textarea {
     font-size: 1em;
     text-shadow: 0px 0px 0px black;
 }
-  `
-
-
-  handleInput = (e) => {
-    // e.preventDefault();
-    if (e.key.length > 1 && e.key !== "Backspace") return;
-    this.props.handleInputEvent(e);
-  }
-
-  componentDidMount() {
- let data = this.props.getAllSessions();
- console.log(data)
-  }
-
-  render() {
-    return (
-      <type-racer>
-        <ReactShadowRoot>
-          <div>
-          <style>{this.style}</style>
-          <link rel="stylesheet" href="./shadow-style.css"/>
-          <div id="app">
-            <div id="previous-results"/>
-            <br/>
-            <div id="string-field">
-              <span id="done">{this.props.state.typedWords && this.props.state.typedWords.join("") || ""}</span>
-              <span className="current" id="typed">{this.props.state.typedCharacters}</span>
-              <span className="current" id="expected">{this.props.state.expectedCharacter}</span>
-              <span className="current" id="remains">{this.props.state.remainedCharacters}</span>
-              <span id="tail">{this.props.state.remainedWords}</span>
-            </div>
-            <br/>
-            <input id="main-input" onKeyDown={this.handleInput} aria-selected="false" type="text"/>
-            <span id="main-result">{this.props.state.sessionResult || ""}</span>
-          </div>
-          </div>
-        </ReactShadowRoot>
-      </type-racer>
-    );
-  }
-}
-
-
-function mapStateToProps(state) {
-  return {
-    state: state.getImmutableState
-  }
-}
-
-const mapDispatchToProps = {
-  handleInputEvent,
-  getAllSessions
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);  //set state to App!

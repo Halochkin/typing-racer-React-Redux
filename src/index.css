@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+type-racer {
+  background-color: #e3effa;
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
 }
+
+header {
+  height: 5vh;
+  background-color: #070707bd;
+  padding: 1vh;
+  color: white;
+  font-family: "Roboto Light";
+}
+
+#header-logo {
+  font-size: 2.5em;
+}
+
+.auth-logo {
+  height: 100%;
+  margin-left: 1vh;
+  float: right
+}
+
+#login-label {
+  float: right;
+  height: 100%;
+  line-height: 3em;
+}
+
+#header-photo {
+  height: 100%;
+  border-radius: 50%;
+  float: right;
+  border: 2px solid white;
+}
+
+#header-username {
+  float: right;
+  text-align: center;
+  color: white;
+  margin: 1vh;
+}
+
+#logout-btn {
+  float: right;
+  background-color: lightgray;
+  margin: auto;
+  padding: 1vh;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+  background-color: #f37145;
+}
+
+
+
+
+
+

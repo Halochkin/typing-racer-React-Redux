@@ -1,24 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c0a057c-98da-44e5-9d14-121d1021cd63" name="Default Changelist" comment="" />
+    <list default="true" id="5c0a057c-98da-44e5-9d14-121d1021cd63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Reducers/Reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reducers/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shadow-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-typing-racer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typing-racer-React-Redux.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ncLrXoUMm8D0yYzOVDgchHm4hT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JS\react-typing-racer\src" />
+      <recent name="D:\JS\react-typing-racer\src\store\Reducers" />
+      <recent name="D:\JS\react-typing-racer\src\store" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,8 +99,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611684631676</updated>
-      <workItem from="1611684640124" duration="498000" />
+      <workItem from="1611684640124" duration="11627000" />
+      <workItem from="1612818859008" duration="43636000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="465" key="#ESLint" timestamp="1611691577895">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="828" y="465" key="#ESLint/0.30.1920.1050@0.30.1920.1050" timestamp="1611691577895" />
+    <state x="414" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611686446158">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="414" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1611686446158" />
+    <state width="1899" height="141" key="GridCell.Tab.0.bottom" timestamp="1613042609758">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="141" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1613042609758" />
+    <state width="1899" height="141" key="GridCell.Tab.0.center" timestamp="1613042609757">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="141" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1613042609757" />
+    <state width="1899" height="141" key="GridCell.Tab.0.left" timestamp="1613042609757">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="141" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1613042609757" />
+    <state width="1899" height="141" key="GridCell.Tab.0.right" timestamp="1613042609757">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="141" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1613042609757" />
+    <state x="92" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612989816621">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="92" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1612989816621" />
+    <state x="668" y="274" width="583" height="562" key="find.popup" timestamp="1612971856631">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="668" y="274" width="583" height="562" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1612971856631" />
   </component>
 </project>
