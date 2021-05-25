@@ -13,4 +13,4 @@ The main task of the application is to be used to test the [cloudflare worker](h
 - Proxy server
 - [Google](https://github.com/Halochkin/Cloudflare/blob/master/Auth/src/google%20auth.js)/[Github](https://github.com/Halochkin/Cloudflare/blob/master/Auth/src/github%20auth.js) authentication worker
 - 
-#### (check [custom element version](https://github.com/Halochkin/Cloudflare) if you can't find some files here).
+##### check [custom element version](https://github.com/Halochkin/Cloudflare) if you can't find some files here.
