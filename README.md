@@ -1,7 +1,7 @@
 Simple example application for developing fast typing skills. React+Redux version of [custom element version](https://github.com/Halochkin/Cloudflare).
 
 
-The main task of the application is to be used to test the cloudflare worker functionality as well:
+The main task of the application is to be used to test the [cloudflare worker](https://workers.cloudflare.com/) functionality as well:
 
 - KV (key-value) cloudflare store
 - [AES-GCM encryption/decryption](https://github.com/Halochkin/Cloudflare/blob/master/Auth/src/auth-google-jwt-cache.js) 
@@ -10,4 +10,4 @@ The main task of the application is to be used to test the cloudflare worker fun
 - Cookies
 - Custom web components
 - Proxy server
-- Google/Github authentication
+- [Google](https://github.com/Halochkin/Cloudflare/blob/master/Auth/src/google%20auth.js)/[Github](https://github.com/Halochkin/Cloudflare/blob/master/Auth/src/github%20auth.js) authentication worker
